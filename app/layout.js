@@ -1,5 +1,6 @@
 import localFont from 'next/font/local';
 import './globals.css';
+import Navbar from '@/components/Navbar';
 
 const geistSans = localFont({
   src: './fonts/GeistVF.woff',
@@ -13,7 +14,7 @@ const geistMono = localFont({
 });
 
 export const metadata = {
-  title: 'MoviDB',
+  title: 'Movies - Movie DB',
   description: 'This is a MoviDB website for watch movi.',
 };
 
@@ -22,7 +23,10 @@ export default function RootLayout({ children }) {
     <html lang='en'>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
-        {children}
+        <div className='bg-black text-white'>
+          <Navbar />
+          {children}
+        </div>
       </body>
     </html>
   );
