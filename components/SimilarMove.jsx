@@ -7,14 +7,6 @@ const SimilarMoves = () => {
         <h2 className='text-2xl font-bold mb-4'>More Like This</h2>
 
         <div className='flex space-x-4 overflow-x-auto pb-4'>
-          <div className='flex w-48 h-[288px] rounded-lg cursor-pointer hover:scale-105 transition-transform'>
-            <div className='w-48 h-[288px] rounded-lg bg-zinc-800 relative'>
-              <div className='absolute inset-0 w-full h-full rounded-lg overflow-hidden'>
-                <div className='animate-pulse w-full h-full bg-gradient-to-r from-zinc-900 via-zinc-700 to-zinc-900 bg-[length:200%_100%] '></div>
-              </div>
-            </div>
-          </div>
-
           <div className='flex-shrink-0 w-48 cursor-pointer hover:scale-105 transition-transform'>
             <a href='details.html'>
               <Image

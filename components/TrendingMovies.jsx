@@ -9,7 +9,7 @@ const TrendingMovies = () => {
         id='trendingMovies'
         className='flex space-x-4 overflow-x-auto pb-4'>
         <div className='flex-shrink-0 w-48 cursor-pointer hover:scale-105 transition-transform'>
-          <Link href='/details'>
+          <Link href='/details/id'>
             <Image
               src='https://image.tmdb.org/t/p/original/ht8Uv9QPv9y7K0RvUyJIaXOZTfd.jpg'
               alt='Smile 2'
@@ -24,7 +24,7 @@ const TrendingMovies = () => {
           </Link>
         </div>
         <div className='flex-shrink-0 w-48 cursor-pointer hover:scale-105 transition-transform'>
-          <Link href='/details'>
+          <Link href='/details/id'>
             <Image
               src='https://image.tmdb.org/t/p/original/c5Tqxeo1UpBvnAc3csUm7j3hlQl.jpg'
               alt='Wicked'
