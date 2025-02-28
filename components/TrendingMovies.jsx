@@ -1,6 +1,5 @@
 import Image from 'next/image';
 import Link from 'next/link';
-import React from 'react';
 
 const TrendingMovies = () => {
   return (
@@ -10,7 +9,7 @@ const TrendingMovies = () => {
         id='trendingMovies'
         className='flex space-x-4 overflow-x-auto pb-4'>
         <div className='flex-shrink-0 w-48 cursor-pointer hover:scale-105 transition-transform'>
-          <Link href='details.html'>
+          <Link href='/details'>
             <Image
               src='https://image.tmdb.org/t/p/original/ht8Uv9QPv9y7K0RvUyJIaXOZTfd.jpg'
               alt='Smile 2'
@@ -25,7 +24,7 @@ const TrendingMovies = () => {
           </Link>
         </div>
         <div className='flex-shrink-0 w-48 cursor-pointer hover:scale-105 transition-transform'>
-          <Link href='details.html'>
+          <Link href='/details'>
             <Image
               src='https://image.tmdb.org/t/p/original/c5Tqxeo1UpBvnAc3csUm7j3hlQl.jpg'
               alt='Wicked'
@@ -40,7 +39,7 @@ const TrendingMovies = () => {
           </Link>
         </div>
         <div className='flex-shrink-0 w-48 cursor-pointer hover:scale-105 transition-transform'>
-          <Link href='details.html'>
+          <Link href='/details'>
             <Image
               src='https://image.tmdb.org/t/p/original/2cxhvwyEwRlysAmRH4iodkvo0z5.jpg'
               alt='Gladiator II'
@@ -57,7 +56,7 @@ const TrendingMovies = () => {
           </Link>
         </div>
         <div className='flex-shrink-0 w-48 cursor-pointer hover:scale-105 transition-transform'>
-          <Link href='details.html'>
+          <Link href='/details'>
             <Image
               src='https://image.tmdb.org/t/p/original/xFSIygDiX70Esp9dheCgGX0Nj77.jpg'
               alt='Spellbound'
@@ -74,7 +73,7 @@ const TrendingMovies = () => {
           </Link>
         </div>
         <div className='flex-shrink-0 w-48 cursor-pointer hover:scale-105 transition-transform'>
-          <Link href='details.html'>
+          <Link href='/details'>
             <Image
               src='https://image.tmdb.org/t/p/original/e9tyjbF2rugENtBolTtEhHOXgzD.jpg'
               alt='Blitz'
@@ -89,7 +88,7 @@ const TrendingMovies = () => {
           </Link>
         </div>
         <div className='flex-shrink-0 w-48 cursor-pointer hover:scale-105 transition-transform'>
-          <Link href='details.html'>
+          <Link href='/details'>
             <Image
               src='https://image.tmdb.org/t/p/original/2qzcxDbtRpHlcte7Df7JLMK84N.jpg'
               alt='The Piano Lesson'
@@ -106,7 +105,7 @@ const TrendingMovies = () => {
           </Link>
         </div>
         <div className='flex-shrink-0 w-48 cursor-pointer hover:scale-105 transition-transform'>
-          <Link href='details.html'>
+          <Link href='/details'>
             <Image
               src='https://image.tmdb.org/t/p/original/oeDNBgnlGF6rnyX1P1K8Vl2f3lW.jpg'
               alt='We Live in Time'
@@ -123,7 +122,7 @@ const TrendingMovies = () => {
           </Link>
         </div>
         <div className='flex-shrink-0 w-48 cursor-pointer hover:scale-105 transition-transform'>
-          <Link href='details.html'>
+          <Link href='/details'>
             <Image
               src='https://image.tmdb.org/t/p/original/pnXLFioDeftqjlCVlRmXvIdMsdP.jpg'
               alt='Armor'
@@ -138,7 +137,7 @@ const TrendingMovies = () => {
           </Link>
         </div>
         <div className='flex-shrink-0 w-48 cursor-pointer hover:scale-105 transition-transform'>
-          <Link href='details.html'>
+          <Link href='/details'>
             <Image
               src='https://image.tmdb.org/t/p/original/8cdWjvZQUExUUTzyp4t6EDMubfO.jpg'
               alt='Deadpool & Wolverine'
@@ -155,7 +154,7 @@ const TrendingMovies = () => {
           </Link>
         </div>
         <div className='flex-shrink-0 w-48 cursor-pointer hover:scale-105 transition-transform'>
-          <Link href='details.html'>
+          <Link href='/details'>
             <Image
               src='https://image.tmdb.org/t/p/original/wTnV3PCVW5O92JMrFvvrRcV39RU.jpg'
               alt='The Wild Robot'
@@ -172,7 +171,7 @@ const TrendingMovies = () => {
           </Link>
         </div>
         <div className='flex-shrink-0 w-48 cursor-pointer hover:scale-105 transition-transform'>
-          <Link href='details.html'>
+          <Link href='/details'>
             <Image
               src='https://image.tmdb.org/t/p/original/lqoMzCcZYEFK729d6qzt349fB4o.jpg'
               alt='The Substance'
@@ -189,7 +188,7 @@ const TrendingMovies = () => {
           </Link>
         </div>
         <div className='flex-shrink-0 w-48 cursor-pointer hover:scale-105 transition-transform'>
-          <Link href='details.html'>
+          <Link href='/details'>
             <Image
               src='https://image.tmdb.org/t/p/original/b33nnKl1GSFbao4l3fZDDqsMx0F.jpg'
               alt='Alien: Romulus'
@@ -206,7 +205,7 @@ const TrendingMovies = () => {
           </Link>
         </div>
         <div className='flex-shrink-0 w-48 cursor-pointer hover:scale-105 transition-transform'>
-          <Link href='details.html'>
+          <Link href='/details'>
             <Image
               src='https://image.tmdb.org/t/p/original/cdqLnri3NEGcmfnqwk2TSIYtddg.jpg'
               alt='Red One'
@@ -221,7 +220,7 @@ const TrendingMovies = () => {
           </Link>
         </div>
         <div className='flex-shrink-0 w-48 cursor-pointer hover:scale-105 transition-transform'>
-          <Link href='details.html'>
+          <Link href='/details'>
             <Image
               src='https://image.tmdb.org/t/p/original/ty8TGRuvJLPUmAR1H1nRIsgwvim.jpg'
               alt='Gladiator'
@@ -238,7 +237,7 @@ const TrendingMovies = () => {
           </Link>
         </div>
         <div className='flex-shrink-0 w-48 cursor-pointer hover:scale-105 transition-transform'>
-          <Link href='details.html'>
+          <Link href='/details'>
             <Image
               src='https://image.tmdb.org/t/p/original/cNtAslrDhk1i3IOZ16vF7df6lMy.jpg'
               alt='Absolution'
@@ -255,7 +254,7 @@ const TrendingMovies = () => {
           </Link>
         </div>
         <div className='flex-shrink-0 w-48 cursor-pointer hover:scale-105 transition-transform'>
-          <Link href='details.html'>
+          <Link href='/details'>
             <Image
               src='https://image.tmdb.org/t/p/original/bx92hl70NUhojjO3eV6LqKllj4L.jpg'
               alt='GTMAX'
@@ -270,7 +269,7 @@ const TrendingMovies = () => {
           </Link>
         </div>
         <div className='flex-shrink-0 w-48 cursor-pointer hover:scale-105 transition-transform'>
-          <Link href='details.html'>
+          <Link href='/details'>
             <Image
               src='https://image.tmdb.org/t/p/original/m0SbwFNCa9epW1X60deLqTHiP7x.jpg'
               alt='Moana 2'
@@ -285,7 +284,7 @@ const TrendingMovies = () => {
           </Link>
         </div>
         <div className='flex-shrink-0 w-48 cursor-pointer hover:scale-105 transition-transform'>
-          <Link href='details.html'>
+          <Link href='/details'>
             <Image
               src='https://image.tmdb.org/t/p/original/4t80WORFWqDYf4BRwV2jrXNHJdN.jpg'
               alt='The Merry Gentlemen'
@@ -302,7 +301,7 @@ const TrendingMovies = () => {
           </Link>
         </div>
         <div className='flex-shrink-0 w-48 cursor-pointer hover:scale-105 transition-transform'>
-          <Link href='details.html'>
+          <Link href='/details'>
             <Image
               src='https://image.tmdb.org/t/p/original/zciWal3a5QPjqqJAgmpHVLBlFMj.jpg'
               alt='Joy'
@@ -317,7 +316,7 @@ const TrendingMovies = () => {
           </Link>
         </div>
         <div className='flex-shrink-0 w-48 cursor-pointer hover:scale-105 transition-transform'>
-          <Link href='details.html'>
+          <Link href='/details'>
             <Image
               src='https://image.tmdb.org/t/p/original/o8qtMeCskitW5QwSu6O1nP4jN6z.jpg'
               alt='Out of My Mind'

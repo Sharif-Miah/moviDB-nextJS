@@ -3,7 +3,7 @@ import Link from 'next/link';
 const RegisterPage = () => {
   return (
     <div className='bg-moviedb-black min-h-screen flex items-center justify-center p-4'>
-      <div className='w-full max-w-md bg-black/70 rounded-lg p-8 shadow-xl'>
+      <div className='w-full max-w-md bg-black/70 rounded-lg p-8 shadow-xl mt-10'>
         <div className='text-center'>
           <h1 className='text-white text-3xl font-bold mb-6'>
             Create Your Account
