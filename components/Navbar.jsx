@@ -27,6 +27,11 @@ const Navbar = () => {
               className='text-white hover:text-gray-300'>
               Watch Later
             </Link>
+            <Link
+              href='/login'
+              className='text-white hover:text-gray-300'>
+              Login
+            </Link>
           </div>
         </div>
         <div className='relative'>
